@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 /* Dessa forma é removido os pontinhos das lista criada no HTML */
@@ -97,7 +98,9 @@ section p:hover {
 
 section ul {
     display: flex;
+    flex-wrap: warp;
     gap: 16px;
+
     margin-top: 24px;
 }
 
